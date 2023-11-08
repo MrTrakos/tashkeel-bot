@@ -22,7 +22,10 @@ go get gopkg.in/telebot.v3
 ## Configuration
 
 Before running the bot, you need to configure the bot token and the sudo ID. Follow the steps below:
-
+0. Write in terminal:
+```shell
+go mod init bot
+```
 1. Open the `main.go` file in a text editor.
 
 2. Locate the following lines:
