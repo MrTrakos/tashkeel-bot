@@ -49,9 +49,12 @@ func tashkill(text string) string {
 
 }
 
+const (
+	token  = "YOUR_BOT_TOKEN"
+	sudoID = 144444444
+)
+
 func main() {
-	token := "123456789:ABCDEFGHIJKLMNOPQRSXXXXXXX" // bot token must be there
-	sudo := 1485149817                              // sudo userid
 	bot, err := telebot.NewBot(telebot.Settings{
 		Token:   token,
 		Updates: 1,
